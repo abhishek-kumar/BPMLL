@@ -1,4 +1,4 @@
-This is a wrapper for the BPMLL algorithm [1].
+This is a wrapper script for the BPMLL algorithm [1, 2].
 It runs this model on 4 benchmark multilabel datasets and outputs evaluation metrics.
 
 Requirements:
@@ -20,3 +20,8 @@ After extraction, you should have the following directory structure within the f
   * emotions/emotions-test.csv
   * enron/enron-train.csv
   * enron/enron-test.csv
+
+References
+
+[1] M.-L. Zhang and Z.-H. Zhou. Multilabel neural networks with applications to functional genomics and text categorization. IEEE Transactions on Knowledge and Data Engineering, 2006, 18(10): 1338-1351.
+[2] The BPMLL source code within the directory 'BPMLL-src' is taken from http://lamda.nju.edu.cn/Default.aspx?Page=code_BPMLL
