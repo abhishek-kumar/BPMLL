@@ -9,10 +9,13 @@ Requirements
 
 How to run
 ================================
+* Download this repo and navigate to the directory that contains this readme file.
 
-* copy the 'data.zip' file from https://www.dropbox.com/s/g812jg9c6kj081y/data.zip to this directory
+        git clone https://github.com/abhishek-kumar/BPMLL
+        cd BPMLL
+* copy the 'data.zip' file from https://www.dropbox.com/s/g812jg9c6kj081y/data.zip to the current directory
 * extract 'data.zip' here. After extracting, the 'data' directory should now contain four subdirectories, 'scene', 'yeast', 'emotions' and 'enron'.
-* Start Matlab, navigate to this directory, and type 'run'
+* Start Matlab, navigate to the current directory (BPMLL), and type 'run'
 
 Note
 ================================
