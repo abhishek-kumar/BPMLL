@@ -20,15 +20,21 @@ How to run
 Note
 ================================
 
-After extraction, you should have the following directory structure within the folder 'data':
-* scene/scene-train.csv
-* scene/scene-test.csv
-* yeast/yeast-train.csv
-* yeast/yeast-test.csv
-* emotions/emotions-train.csv
-* emotions/emotions-test.csv
-* enron/enron-train.csv
-* enron/enron-test.csv
+1. After extracting 'data.zip', you should have the following directory structure within the folder 'data':
+  * scene/scene-train.csv
+  * scene/scene-test.csv
+  * yeast/yeast-train.csv
+  * yeast/yeast-test.csv
+  * emotions/emotions-train.csv
+  * emotions/emotions-test.csv
+  * enron/enron-train.csv
+  * enron/enron-test.csv
+2. Dataset format. Each dataset is separated into two CSV files - a training set and a test set. If the training set contains 4 examples with 3 features and 2 labels, the train.csv file should have 4 rows and 3+2=5 columns. Labels must be in {0,1} and feature values must be in [-1,1]. E.g.
+
+        0.5677,0.7400,0.0765,0,1
+        0.8364,-0.7465,-0.9874,1,1
+        0.7465,0.0000,0.9048,1,0
+        0.8475,-0.8475,0.3658,0,0
 
 References
 ================================
